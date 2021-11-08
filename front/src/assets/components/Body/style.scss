@@ -1,0 +1,42 @@
+// Régles
+@import "../../styleRules/styleRules";
+
+#contentContainer{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainLogo{
+    height : 40vh;
+    width: 40vh;
+}
+
+#managersName{
+    margin-bottom: 0.2em;
+    font-family: $titleFont;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#announcementContainer{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#announcement{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+#subTitle{
+    text-align: center;
+    h3{
+        margin : 0;
+        font-weight: normal;
+        font-size: 1.2em;
+    }
+}

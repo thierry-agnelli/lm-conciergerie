@@ -1,0 +1,42 @@
+// Régles
+@import "../../styleRules/styleRules";
+
+header{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    .bannerSidePart{
+        flex-basis: 15em;
+    }
+    .bannerRight{
+        height : 100%;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        #languageMenu{
+            margin : 0.5em 0.75em;
+            padding: 0.2em 0.5em;
+            border: 1px solid #86672C;
+            border-radius: 1em;
+            select{
+                color: white;
+                background-color: grey;
+                border: none;
+                option{
+                    color: black;
+                    background-color: grey;
+                }
+            }
+        }
+    }
+    h1{
+        flex-basis: 70vw;
+        margin: 0;
+        font-size: 3em;
+        font-family: $titleFont;
+        text-align: center;
+    }
+}

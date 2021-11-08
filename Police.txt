@@ -1,0 +1,9 @@
+* Ecriture par default du site
+	Goudos.tff (Goudy Old Style)
+
+* Titre "Lucile et Mélanie"
+	??
+
+* Sous titre 	"conciergerie & services"
+		"gestion de biens immobiliers"
+	Centaur.tff

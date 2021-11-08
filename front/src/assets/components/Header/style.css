@@ -1,0 +1,72 @@
+header {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .bannerSidePart {
+  -ms-flex-preferred-size: 15em;
+      flex-basis: 15em;
+}
+
+header .bannerRight {
+  height: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+header .bannerRight #languageMenu {
+  margin: 0.5em 0.75em;
+  padding: 0.2em 0.5em;
+  border: 1px solid #86672C;
+  border-radius: 1em;
+}
+
+header .bannerRight #languageMenu ul {
+  padding: 0;
+  height: 1em;
+}
+
+header .bannerRight #languageMenu ul li {
+  list-style: none;
+  position: relative;
+  color: white;
+  overflow: hidden;
+}
+
+header .bannerRight #languageMenu ul:hover {
+  height: 4em;
+}
+
+header .bannerRight #languageMenu ul:hover li {
+  color: #FFFFFFFF;
+}
+
+header h1 {
+  -ms-flex-preferred-size: 70vw;
+      flex-basis: 70vw;
+  margin: 0;
+  font-size: 3em;
+  font-family: "Centaur";
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

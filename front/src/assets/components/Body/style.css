@@ -1,0 +1,50 @@
+#contentContainer {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#mainLogo {
+  height: 40vh;
+  width: 40vh;
+}
+
+#managersName {
+  margin-bottom: 0.2em;
+  font-family: "Centaur";
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#announcementContainer {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#announcement {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+#subTitle {
+  text-align: center;
+}
+
+#subTitle h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=style.css.map */
