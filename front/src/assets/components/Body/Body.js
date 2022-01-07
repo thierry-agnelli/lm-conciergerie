@@ -6,18 +6,19 @@ import "./style.css";
 import { AppContext } from "../../../App";
 // Images
 import logo from "../../media/images/logo.png";
-
+// Langages
+import language from "../../languages/languages.json";
 // Contenus
-const language = {
-    fr: {
-        announcement: "Site en cours de construction",
-        information: "Vous pouvez nous contacter au +33 6.XX.XX.XX.XX ou à l'addresse mail "
-    },
-    en: {
-        announcement: "Website under construction",
-        information: "You can contact us at +33 6.XX.XX.XX.XX or following mail address "
-    }
-}
+// const language = {
+//     fr: {
+//         announcement: "Site en cours de construction",
+//         information: "Vous pouvez nous contacter au +33 6.XX.XX.XX.XX ou à l'addresse mail "
+//     },
+//     en: {
+//         announcement: "Website under construction",
+//         information: "You can contact us at +33 6.XX.XX.XX.XX or following mail address "
+//     }
+// }
 
 
 // Corps du site

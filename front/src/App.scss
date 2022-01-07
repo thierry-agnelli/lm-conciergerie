@@ -6,8 +6,10 @@
     flex-direction: column;
     /* background: linear-gradient(transparent, white 90vh),
     url("./assets/media/images/bkcg-villa.jpg"); */
-    background: linear-gradient(#202020 , white 90vh);
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background: linear-gradient(#202020 , white 90vh);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-color: #202020;
+    color: white;
     font-family: $mainFont;
 }

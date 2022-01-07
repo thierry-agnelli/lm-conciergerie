@@ -8,10 +8,8 @@
           flex-direction: column;
   /* background: linear-gradient(transparent, white 90vh),
     url("./assets/media/images/bkcg-villa.jpg"); */
-  background: -webkit-gradient(linear, left top, left bottom, from(#202020), color-stop(90vh, white));
-  background: linear-gradient(#202020, white 90vh);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #202020;
+  color: white;
   font-family: "Goudos";
 }
 /*# sourceMappingURL=App.css.map */

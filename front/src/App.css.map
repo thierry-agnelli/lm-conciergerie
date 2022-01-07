@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB;mDAC+C;EAC/C,UAAU,EAAE,oCAAqC;EACjD,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,WAAW,ECTJ,QAAQ;CDUlB",
+    "mappings": "AAGA,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB;mDAC+C;EAI/C,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;EACZ,WAAW,ECXJ,QAAQ;CDYlB",
     "sources": [
         "App.scss",
         "assets/styleRules/styleRules.scss"
